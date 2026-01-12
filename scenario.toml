@@ -1,16 +1,23 @@
 [green_agent]
-agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [[participants]]
-agentbeats_id = ""
-name = "role_1_name"
-env = {}
-
-[[participants]]
-agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
+name = "solver"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
-# Add your assessment config here
+# Level selection options:
+# - Specific levels: levels = [0, 1, 2, 3]
+# - All levels: levels = "all"
+# - Single level: levels = [0]
+levels = [0, 1, 2]  # Start with easy levels for testing
+
+max_turns_per_level = 30
+timeout_per_level = 300
+stop_on_failure = false  # Continue to next level even if one fails
+
+[config.logging]
+level = "INFO"
+file = "logs/ethernaut_eval_{time}.log"
