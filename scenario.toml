@@ -1,6 +1,6 @@
 [green_agent]
 agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
-env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+env = {}
 
 [[participants]]
 agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
