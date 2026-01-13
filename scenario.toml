@@ -3,7 +3,7 @@ agentbeats_id = "kmadorin/ethernaut-arena-green-agent"
 env = {}
 
 [[participants]]
-agentbeats_id = "kmadorin/ethernaut-arena-solver"
+agentbeats_id = "019bb4ab-c686-7f71-8aba-1c8bae81f334"
 name = "solver"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
