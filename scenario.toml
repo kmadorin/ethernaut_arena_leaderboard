@@ -12,7 +12,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 # - Specific levels: levels = [0, 1, 2, 3]
 # - All levels: levels = "all"
 # - Single level: levels = [0]
-levels = [0]  # Start with level 0 for initial test
+levels = [0]  # Test assessment run
 
 max_turns_per_level = 30
 timeout_per_level = 300
