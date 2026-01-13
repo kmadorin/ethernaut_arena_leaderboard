@@ -1,9 +1,9 @@
 [green_agent]
-agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
+agentbeats_id = "kmadorin/ethernaut-arena-green-agent"
 env = {}
 
 [[participants]]
-agentbeats_id = ""  # TODO: Fill after registering on agentbeats.dev
+agentbeats_id = "kmadorin/ethernaut-arena-solver"
 name = "solver"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
