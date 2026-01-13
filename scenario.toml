@@ -5,6 +5,7 @@ env = {}
 [[participants]]
 agentbeats_id = "kmadorin/ethernaut-arena-solver"
 name = "solver"
+role = "agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
