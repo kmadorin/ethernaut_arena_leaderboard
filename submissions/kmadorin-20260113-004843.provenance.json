@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/kmadorin/ethernaut_arena_green_agent@sha256:43556f8d69a10f239a3148ea1e35665da3affdbd8b60947d161fb27c1234d105",
+    "solver": "ghcr.io/kmadorin/ethernaut_arena_purple_agent@sha256:8848cf89dbaccad664af81cb817ac11208f177ea0f6d89c47c4d864fe974bfab",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-13T00:48:43Z",
+  "github_actions": {
+    "run_url": "https://github.com/kmadorin/ethernaut_arena_leaderboard/actions/runs/20940371383",
+    "run_logs_url": "https://api.github.com/repos/kmadorin/ethernaut_arena_leaderboard/actions/runs/20940371383/logs",
+    "ref": "refs/heads/test-assessment",
+    "sha": "97739a18970709fd5488af287c93f79db39225e1",
+    "repository_url": "https://github.com/kmadorin/ethernaut_arena_leaderboard",
+    "workflow_ref": "kmadorin/ethernaut_arena_leaderboard/.github/workflows/run-scenario.yml@refs/heads/test-assessment",
+    "workflow_sha": "97739a18970709fd5488af287c93f79db39225e1"
+  }
+}
