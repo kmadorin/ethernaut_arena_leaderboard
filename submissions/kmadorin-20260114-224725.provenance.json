@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/kmadorin/ethernaut_arena_green_agent@sha256:931bc1de8e7cad64b7e13db8f2add8672ebd6d228b673dcf0517dc8ace32f888",
+    "agent": "ghcr.io/kmadorin/ethernaut_arena_purple_agent@sha256:5940e6a987af38c0c45252c9606cbcde268c2fe2dcddf32ff5533258ffd013c1",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-14T22:47:25Z",
+  "github_actions": {
+    "run_url": "https://github.com/kmadorin/ethernaut_arena_leaderboard/actions/runs/21009731187",
+    "run_logs_url": "https://api.github.com/repos/kmadorin/ethernaut_arena_leaderboard/actions/runs/21009731187/logs",
+    "ref": "refs/heads/submission-20260114-220249",
+    "sha": "09020d8da2e185ae34059e8c46e5a584156f4242",
+    "repository_url": "https://github.com/kmadorin/ethernaut_arena_leaderboard",
+    "workflow_ref": "kmadorin/ethernaut_arena_leaderboard/.github/workflows/run-scenario.yml@refs/heads/submission-20260114-220249",
+    "workflow_sha": "09020d8da2e185ae34059e8c46e5a584156f4242"
+  }
+}
