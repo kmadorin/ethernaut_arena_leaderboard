@@ -1,0 +1,23 @@
+[green_agent]
+agentbeats_id = "kmadorin/ethernaut-arena-green-agent"
+env = {}
+
+[[participants]]
+agentbeats_id = "019bb4ab-c686-7f71-8aba-1c8bae81f334"
+name = "agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+# Level selection options:
+# - Specific levels: levels = [0, 1, 2, 3]
+# - All levels: levels = "all"
+# - Single level: levels = [0]
+levels = "all"  # Full evaluation - reproducibility test 3
+
+max_turns_per_level = 30
+timeout_per_level = 300
+stop_on_failure = false  # Continue to next level even if one fails
+
+[config.logging]
+level = "INFO"
+file = "logs/ethernaut_eval_{time}.log"
