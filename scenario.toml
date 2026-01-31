@@ -12,7 +12,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 # - Specific levels: levels = [0, 1, 2, 3]
 # - All levels: levels = "all"
 # - Single level: levels = [0]
-levels = [0]  # Test level 0 with fixed role name
+levels = "all"  # Full evaluation - reproducibility test 4
 
 max_turns_per_level = 30
 timeout_per_level = 300
